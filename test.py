@@ -521,6 +521,7 @@ def start_screen():
                     running2 = True
                 else:
                     break
+                goat.kill()
                 running = False
         screen.blit(fon, (0, 0))
         all_sprites.draw(screen)
